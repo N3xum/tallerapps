@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo 10 - Taller de Aplicaciones en Internet</title>
+    <style>
+        /* ESTILOS SIMPLES (CSS) */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            background-color: #003366; /* Azul institucional */
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        h1 { margin: 0; font-size: 24px; }
+        h2 { margin: 5px 0; font-size: 18px; font-weight: normal; }
+        h3 { margin: 5px 0; font-size: 16px; color: #ffcc00; } /* Resaltar el grupo */
+
+        /* CONTENEDOR DE LAS TARJETAS */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        /* DISEÑO DE CADA TARJETA */
+        .card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 280px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        /* Etiquetas de Rol */
+        .rol {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 15px;
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .rol-lider { background-color: #d9534f; } /* Rojo para Jefa */
+        .rol-colab { background-color: #5bc0de; } /* Azul claro para Colaboradores */
+
+        .nombre {
+            font-size: 18px;
+            color: #333;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+        /* ÁREA EDITABLE PARA CADA UNO */
+        .contenido-editable {
+            background-color: #f9f9f9;
+            border: 1px dashed #ccc;
+            padding: 10px;
+            font-size: 14px;
+            color: #555;
+            min-height: 60px; /* Espacio reservado */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Universidad Adventista de Bolivia</h1>
+        <h2>Materia: Taller de Aplicaciones en Internet</h2>
+        <h3>GRUPO 10</h3>
+    </header>
+
+    <div class="container">
+
+        <div class="card">
+            <span class="rol rol-lider">JEFA DE GRUPO</span>
+            <div class="nombre">Jhilda Alizon Achacollo Gutierrez</div>
+            
+            <div class="contenido-editable">
+                <p>Encargada del repositorio principal.</p>
+                </div>
+        </div>
+
+        <div class="card">
+            <span class="rol rol-colab">COLABORADOR</span>
+            <div class="nombre">Peter Camacho Cardozo</div>
+            
+            <div class="contenido-editable">
+                <p>Hola, soy Peter. Aquí pondré mi información.</p>
+                </div>
+        </div>
+
+        <div class="card">
+            <span class="rol rol-colab">COLABORADOR</span>
+            <div class="nombre">Roberto Rafael Vallejos Santa Maria</div>
+            
+            <div class="contenido-editable">
+                <p>Pendiente de actualización por el colaborador.</p>
+                </div>
+        </div>
+
+    </div>
+
+    <footer style="margin-top: 30px; font-size: 12px; color: #777;">
+        <p>&copy; 2026 - Actividad de Laboratorio Git</p>
+    </footer>
+
+</body>
+</html>
